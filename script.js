@@ -41,6 +41,6 @@ gsap.to('.images-wrapper img' ,{duration:1 , x:'0px' ,ease:'ease'})
 gsap.from('.wrapper div' ,{duration:1 ,opacity:0, delay:1 , stagger:.5})
 gsap.from('.img img' , {duration:1 , x:'-100vw' , ease:'ease'})
 gsap.from('.side-one .txt' , {duration:1 , delay:1 , y:'-100vh' ,ease:'power2.in'})
-gsap.from('.big-title' , {opacity:0 , scale:0 },
+gsap.from('.big-title' , {opacity:0 , scale:0 ,duration:2},
 {duration:1 , delay:2.5, opacity:1 , scale:1 ,rotation:0}
 )
